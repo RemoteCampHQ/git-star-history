@@ -1,0 +1,48 @@
+{
+  "name": "@remote-camp/github-star-history",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf .next && rimraf out",
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier": "prettier --write '**/*.{js,md,json,css,scss,ts,tsx}'"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "ahooks": "^3.4.0",
+    "antd": "^4.20.2",
+    "axios": "^0.27.2",
+    "daisyui": "^2.14.3",
+    "dayjs": "^1.11.3",
+    "echarts": "^5.3.3",
+    "lodash": "^4.17.21",
+    "next": "12.1.6",
+    "octokit": "^1.8.1",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-markdown": "^8.0.3",
+    "react-query": "^3.39.0",
+    "react-select": "^5.3.2",
+    "remark-gfm": "^3.0.1",
+    "styled-components": "^5.3.5",
+    "zustand": "^4.0.0-rc.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.182",
+    "@types/node": "17.0.31",
+    "@types/react": "18.0.9",
+    "@types/react-dom": "18.0.5",
+    "@types/styled-components": "^5.1.25",
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.6",
+    "eslint-config-prettier": "^8.5.0",
+    "next-transpile-modules": "^9.0.0",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.0.24",
+    "typescript": "4.6.4"
+  }
+}

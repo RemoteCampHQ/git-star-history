@@ -1,0 +1,12 @@
+.next/
+out/
+.eslintrc.js
+node_modules
+dist/
+build/
+coverage/
+test/
+.*.spec.ts$
+out/
+.next/
+dist/
